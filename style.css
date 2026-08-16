@@ -23,29 +23,36 @@
 }
 
 .profile-img {
-  height: 100px;
   border-radius: 50%;
- 
+  height: 100px;
 }
 
-#title .container,#features .container{
-  max-width: 1180px;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.card-header.text-bg-dark,
+.card.border-dark {
+  border-color: #000 !important;
 }
 
-
-#title .container {
-  padding-top: 1rem ;
+.card-header.text-bg-dark {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
-#title .row {
-  padding-top: 0;
+.btn-dark.border-dark.text-white {
+  background-color: #1c1c1c !important;
+  border-color: #1c1c1c !important;
+  color: #fff !important;
 }
 
-#features .rows {
-  margin-left: 0;
-  margin-right: 0;
+.btn-dark.border-dark.text-white:hover,
+.btn-dark.border-dark.text-white:focus,
+.btn-dark.border-dark.text-white:active {
+  background-color: #3a3a3a !important;
+  border-color: #3a3a3a !important;
+  color: #fff !important;
+}
+
+.card.border-dark .card-header.text-bg-dark {
+  background-color: #000 !important;
 }
 
  
